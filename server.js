@@ -26,7 +26,7 @@ app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/bills", require("./routes/billsRoute"));
 
 //port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 //listen
 app.listen(PORT, () => {
