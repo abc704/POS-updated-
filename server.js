@@ -7,7 +7,7 @@ const { bgCyan } = require("colors");
 require("colors");
 const connectDb = require("./config/config");
 //dotenv config
-dotanv.config();
+// dotanv.config();
 //db config
 connectDb();
 //rest object
@@ -26,7 +26,7 @@ app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/bills", require("./routes/billsRoute"));
 
 //port
-const PORT = process.env.PORT || 5000;
+const PORT =  5000;
 
 //listen
 app.listen(PORT, () => {

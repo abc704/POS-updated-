@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 require("colors");
 
 //connecDB Function
+// `mongodb+srv://shashank:HK2RJ2gQyl7MqBYN@cluster0.ouqeamn.mongodb.net/Netflix?retryWrites=true&w=majority`
 
 const connectDb = async () => {
   try {
